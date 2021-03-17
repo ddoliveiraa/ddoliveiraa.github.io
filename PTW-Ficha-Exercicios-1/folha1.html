@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Ficha 1</title>
+</head>
+<body>
+    <style>
+        
+
+
+
+    </style>
+    <a href="https://www.ua.pt/pt/estga/"><h1>Escola Superior de Tecnlogia e Gestão de Águeda</h1></a>
+    <h2>Curriculum Vitae</h2>
+    <hr>
+    <img src="cv.jpg">
+    <h3>Instroções para preenchimento</h3>
+
+    <table>
+        <tr>
+            <ul>
+                <td> <li>Preencha todos os campos em minúsculas.</li> </td>
+                <td> <li>Indique uma ou mais habilitações literárias.</li></td> 
+            </ul>
+        </tr>
+        <tr>
+            <ul>
+            <td> <li>Faça um breve resumo da sua experiência profissional.</li> </td>
+            <td> <li>Em caso de dúvidas contacte-nos.</li></td> 
+            </ul>
+        </tr>
+    </table>
+    <hr> 
+        <fieldset>
+            <legend>Informações CV</legend>
+
+            <form action="https://www.gis4cloud.com/PTW/formulario.php" method = "POST">
+                <label for="fname">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Insira o nome"><br><br>
+                <label for="lname">Password:</label>
+                <input type="password" id="pass" name="pass" placeholder="Insira uma password"><br><br>
+                
+                
+                <label for="vehicle1"> Viatura própria: </label>
+                <input type="checkbox" id="viatura" name="viatura" value=true><br>
+                
+                <label for="vehicle1"> Computador: </label>
+                <input type="checkbox" id="computador" name="computador" value=true><br>
+                <br>
+                <label>Habilitações Literárias:</label><br>
+
+                <label for="male">Licenciatura</label>
+                <input type="radio" id="licenciatura" name="habilitacoes" value="licenciatura"><br>
+                <label for="female">Mestrado</label>
+                <input type="radio" id="mestrado" name="habilitacoes" value="mestrado"><br>
+                <label for="other">Doutoramento</label>
+                <input type="radio" id="doutoramento" name="habilitacoes" value="doutoramento"><br> 
+                <br>
+
+                <label>Experiência Profissional:</label><br>
+                <textarea rows="5" cols="80" id="experiencia"></textarea><br>
+                <br>
+
+                <label for="idade">Idade:</label>
+
+                <select name="idade" id="idade">
+                    <option value="25">entre 18 e 25</option>
+                    <option value="30">entre 26 e 30</option>
+                    <option value="50">entre 31 e 50</option>
+                    <option value="51">mais de 50</option>
+                </select><br>
+                <br>
+                
+                <button type="submit">
+                    <img src="ok.gif" width="10" height="10">
+                </button>
+                <input type="submit" value="Apagar">
+            </form>
+        </fieldset>
+</body>
+</html>
