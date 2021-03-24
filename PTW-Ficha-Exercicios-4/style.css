@@ -1,0 +1,50 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    /*text-align: center;*/
+    color: maroon;
+    /*margin-left: 40px;*/
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    /* this is half the height of your div*/
+    margin-left: -100px;
+    /*this is half of width of your div*/
+    text-align: center;
+    /*height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center; */
+}
+
+.container>.container2 {
+    position: absolute;
+    top: auto;
+    bottom: -70%;
+    left: 50%;
+    margin-top: -50px;
+    /* this is half the height of your div*/
+    margin-left: -100px;
+    /*this is half of width of your div*/
+    text-align: center;
+    /*height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center; */
+}
+
+img {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}

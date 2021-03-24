@@ -1,0 +1,29 @@
+div>div {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
+  float: left;
+}
+
+/*
+div:nth-child(odd){
+  background-color: gray;
+} */
+
+.especial {
+  background-color: orange;
+  color: white;
+  width: 400px;
+}
+
+#caixa {
+  width: 404px;
+  margin: auto;
+  top: 100px;
+  position: relative;
+}
+
+.fundo {
+  background-color: gray;
+}
