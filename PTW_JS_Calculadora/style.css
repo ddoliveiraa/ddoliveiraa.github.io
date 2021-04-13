@@ -1,0 +1,61 @@
+table, th, td {
+  border: 1px solid black;
+  width:30%;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 30%;
+}
+
+div {
+  border: 1px solid green;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.calcula{
+  color: red;
+  font-size: 40px;
+}
+
+.botoes-container{
+  border: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.botao{
+  background-color: green;
+  color: white;
+  padding: 40px 50px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 4px 2px;
+}
+
+.head {
+  width: 400px;
+}
+
+.number {
+  width: 50px;
+  
+}
+
+#caixa {
+  float: none;
+  overflow: auto;
+  box-sizing: content-box;
+  width: 500px;
+  border: 5px solid black;
+}
+

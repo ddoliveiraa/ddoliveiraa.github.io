@@ -32,7 +32,6 @@ function mouseOver(x) {
           }
   }
 
-
 var x = setInterval(function() {
 
     document.getElementById("green").onmouseover = function() {mouseOver("green")};
@@ -46,5 +45,4 @@ var x = setInterval(function() {
 
     document.getElementById("yellow").onmouseover = function() {mouseOver("yellow")};
     document.getElementById("yellow").onmouseout = function() {mouseOut("yellow")};
-
   });
