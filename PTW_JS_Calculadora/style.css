@@ -30,6 +30,8 @@ input[type=text] {
 .botoes-container{
   border: none;
   display: grid;
+  margin-left: 36px;
+  margin-right: 36px;
   grid-template-columns: auto auto auto auto;
 }
 
