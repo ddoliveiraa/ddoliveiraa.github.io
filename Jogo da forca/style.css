@@ -1,0 +1,188 @@
+body{
+  background-color: gray;
+}
+
+div {
+  width: 50px;
+  text-align: center;
+  margin: auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+.default{
+  width: 250px;
+  height: 300px;
+  opacity: 50%;
+  position: relative;
+  margin-left: 65px;
+  margin-bottom: 30px;
+}
+
+.no-click {pointer-events: none;}
+
+.wrong-1{
+  width: 55px;
+  height: 65px;
+
+  margin-left: 65px;
+  margin-bottom: 30px;
+  
+  border: none;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.wrong-2{
+  width: 110px;
+  height: 50px;
+
+  margin-left: 65px;
+  margin-bottom: 30px;
+  
+  border: none;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.wrong-3{
+  width: 110px;
+  height: 300px;
+
+  margin-left: 65px;
+  margin-bottom: 30px;
+  
+  border: none;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.wrong-4{
+  width: 178px;
+  height: 300px;
+
+  margin-left: 65px;
+  margin-bottom: 30px;
+  
+  border: none;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.wrong-7{
+  width: 250px;
+  height: 300px;
+
+  margin-left: 65px;
+  margin-bottom: 30px;
+  
+  border: none;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 35px ;
+  height: 45px;
+
+}
+
+.titulo{
+  color: white;
+  font-size: 40px;
+}
+
+.word {
+  font-size: 32px;
+  padding-right: 10px;
+}
+
+.botoes-container{
+  border: none;
+  display: grid;
+  margin-left: 400px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.word-container{
+  text-decoration: underline;
+  border: none;
+  display: grid;
+  margin-top: 280px;
+  margin-left: 200px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+input{
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 1px 1px;
+}
+
+.botao{
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 1px 1px;
+}
+
+.head {
+  width: 400px;
+}
+
+.number {
+  width: 50px;
+  
+}
+
+#caixa {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 25px;
+  float: none;
+  overflow: auto;
+  box-sizing: content-box;
+  width: 1000px;
+  background-color: white;
+}
+
+#lil_caixa {
+  margin: 2% 10%;
+  text-align: right;
+  border-radius: 25px;
+  float: none;
+  overflow: auto;
+  box-sizing: content-box;
+  width: 800px;
+  background-color: #c91111;
+}
+
