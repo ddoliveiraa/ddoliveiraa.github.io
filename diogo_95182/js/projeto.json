@@ -1,0 +1,17 @@
+{
+    "nome": "Diogo Oliveira",
+    "age": 21,
+    "contatos": {
+        "email": "diogoafoliveira@ua.pt",
+        "telefone": "919999999"
+    },
+    "sobre": "Sou um jovem programador com amor em tecnologia, programação, inovação, IA e tecnologias de código aberto. Gosto de estar sempre a aprender.",
+    "escola": [
+        { "type": "licenciatura", "nome": "Tecnologias da Informação" },
+        { "type": "secundario", "nome": "Gestão e programação de sistemas informáticos" }
+    ],
+    "estagio": [
+        { "empresa": "DISKSIM", "tipo": "Manutenção de Computadores" },
+        { "empresa": "Rebelo, AG", "tipo": "Design Gráfico" }
+    ]
+}
